@@ -1,66 +1,1 @@
-**OpenCore**
-
-OpenCorePkg
-https://github.com/acidanthera/OpenCorePkg
-
-
-**ACPI**
-
-SSDT-PLUG.aml
-SSDT-EC-USBX.aml
-
-**Drivers**
-
-AppleSupportPkg
-
-https://github.com/acidanthera/AppleSupportPkg/releases
-
-- ApfsDriverLoader.efi
-- VBoxHfs.efi
-- FwRuntimeServices.efi
-
-VirtualSMC
-
-https://github.com/acidanthera/VirtualSMC/releases
-
-- VirtualSmc.efi
-
-**KEXTS**
-
-- Lilu
-
-https://github.com/acidanthera/Lilu/releases
-
-- WhateverGreen
-
-https://github.com/acidanthera/WhateverGreen/releases
-
-- VirtualSMC
-
-https://github.com/acidanthera/VirtualSMC/releases
-
-- IntelMausiEthernet
-
-https://github.com/Mieze/IntelMausiEthernet
-
-https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/gathering-kexts
-
-- AppleALC
-
-https://github.com/acidanthera/AppleALC/releases
-
-
-**Others**
-
-USBMap
-
-https://github.com/corpnewt/USBMap/releases
-
-MaciASL
-
-https://github.com/acidanthera/MaciASL/releases
-
-
-**TODO**
-
-PlatformInfo
+# Hackintosh## OpenCore- [OpenCorePkg] (https://github.com/acidanthera/OpenCorePkg)## SSDT- (OpenCorePkg) - SSDT-PLUG.aml, SSDT-AWAC.aml- (USBMap) - SSDT-UIAC.aml## Drivers- [VBoxHfs.efi, ApfsDriverLoader.efi, FwRuntimeServices.efi, AppleGenericInput.efi - AppleSupportPkg] (https://github.com/acidanthera/AppleSupportPkg/releases)- [VirtualSMC.efi](https://github.com/acidanthera/VirtualSMC)## KEXTS- [Lilu.kext](https://github.com/acidanthera/Lilu)- [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen)- [VirtualSMC.kext and sensors](https://github.com/acidanthera/VirtualSMC)- [IntelMausi.kext](https://github.com/acidanthera/IntelMausi)- [AppleALC.kext](https://github.com/acidanthera/AppleALC)- USBMap.kext## Tools- [MaciASL] (https://github.com/acidanthera/MaciASL)- [USBMap] (https://github.com/corpnewt/USBMap)## TODODSDTSSDTPlatformInfo
